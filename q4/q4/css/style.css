@@ -1,1 +1,52 @@
 @charset "UTF-8";
+.box {
+  display: table;
+  width: 100%;
+  table-layout: auto;
+}
+
+.box:first-child {
+  margin-bottom: 50px;
+}
+
+.box > div {
+  display: table-cell;
+  text-align: center;
+  padding: 20px;
+}
+
+.kotei1 {
+  width: 300px;
+}
+
+.kotei2{
+  width: 400px;
+}
+
+.red {
+  background-color: #ff7b7b;
+}
+
+.blue {
+  background-color: #7b86ff;
+}
+
+.yellow {
+  background-color: #fff27b;
+}
+
+.green {
+  background-color: #7bff91;
+}
+
+.pink {
+  background-color: #ff7be2;
+}
+
+.orange {
+  background-color: #ffc67b;
+}
+
+.sky {
+  background-color: #7bf2ff;
+}
